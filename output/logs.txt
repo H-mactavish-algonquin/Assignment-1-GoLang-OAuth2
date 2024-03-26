@@ -1,0 +1,12 @@
+{"level":"info","time":"2024-03-25T21:05:50.334-0400","file":"assignment-1-golang-oauth2/main.go:29","msg":"Started running on http://localhost:9090"}
+{"level":"info","time":"2024-03-25T21:05:55.621-0400","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2024-03-25T21:05:55.621-0400","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=695638208662-djakuulu26g6smnilpfsjv93rn3ni3eg.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9090%2Fcallback-gl&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&state=This+Should+be+Random"}
+{"level":"info","time":"2024-03-25T21:06:04.955-0400","file":"services/common.go:30","msg":"https://accounts.google.com/o/oauth2/auth"}
+{"level":"info","time":"2024-03-25T21:06:04.955-0400","file":"services/common.go:39","msg":"https://accounts.google.com/o/oauth2/auth?client_id=695638208662-djakuulu26g6smnilpfsjv93rn3ni3eg.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A9090%2Fcallback-gl&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&state=This+Should+be+Random"}
+{"level":"info","time":"2024-03-25T21:06:10.321-0400","file":"services/google.go:46","msg":"Callback-gl.."}
+{"level":"info","time":"2024-03-25T21:06:10.322-0400","file":"services/google.go:49","msg":"This Should be Random"}
+{"level":"info","time":"2024-03-25T21:06:10.322-0400","file":"services/google.go:57","msg":"4/0AeaYSHCiCwhvxl_ir-sgzW4KoI_3otZTYcoKd3BteIHInP3tjaOBzAofiorMhf6dmxXwjQ"}
+{"level":"info","time":"2024-03-25T21:06:10.535-0400","file":"services/google.go:74","msg":"TOKEN>> AccessToken>> ya29.a0Ad52N38ambpAPT4wXwG5_wR1w_drmalOG1Mmd1efKv9h15A1SSVE-JDounwWjfceQMtFXmRXZkdyMwW9BTqN_kguxgNFzqfzaGYpJ2oe4chdU4wKyiycQCxUwhUJDPxm0xnJtYAchJHSbyipS8KZGrAmUlOTnJ-9MV6RaCgYKAS8SARISFQHGX2MiuCVv6_LajRcjtZDAt9N0rw0171"}
+{"level":"info","time":"2024-03-25T21:06:10.535-0400","file":"services/google.go:75","msg":"TOKEN>> Expiration Time>> 2024-03-25 22:06:09.5351687 -0400 EDT m=+3619.205410801"}
+{"level":"info","time":"2024-03-25T21:06:10.535-0400","file":"services/google.go:76","msg":"TOKEN>> RefreshToken>> "}
+{"level":"info","time":"2024-03-25T21:06:10.658-0400","file":"services/google.go:93","msg":"parseResponseBody: {\n  \"id\": \"109568291588679561405\",\n  \"email\": \"hmactavish13@gmail.com\",\n  \"verified_email\": true,\n  \"picture\": \"https://lh3.googleusercontent.com/a-/ALV-UjVc_iR4XeZ0CWsrqmC9RQzx2YKj0vkR0XQOO3qmJ-_K2A=s96-c\"\n}\n\n"}
